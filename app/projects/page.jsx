@@ -35,17 +35,17 @@ export default function Projects() {
           <div className="flex space-x-8 border-b border-stone-200">
             <button
               onClick={() => setActiveFilter('all')}
-              className={`pb-4 text-sm tracking-wider transition-all duration-300 ${
+              className={`pb-4 text-xs tracking-wider transition-all duration-300 ${
                 activeFilter === 'all'
                   ? 'text-black border-b-2 border-black font-medium'
                   : 'text-gray-400 hover:text-gray-600'
               }`}
             >
-              ALL PROJECTS
+              ALL
             </button>
             <button
               onClick={() => setActiveFilter('interiors')}
-              className={`pb-4 text-sm tracking-wider transition-all duration-300 ${
+              className={`pb-4 text-xs tracking-wider transition-all duration-300 ${
                 activeFilter === 'interiors'
                   ? 'text-black border-b-2 border-black font-medium'
                   : 'text-gray-400 hover:text-gray-600'
@@ -55,7 +55,7 @@ export default function Projects() {
             </button>
             <button
               onClick={() => setActiveFilter('architecture')}
-              className={`pb-4 text-sm tracking-wider transition-all duration-300 ${
+              className={`pb-4 text-xs tracking-wider transition-all duration-300 ${
                 activeFilter === 'architecture'
                   ? 'text-black border-b-2 border-black font-medium'
                   : 'text-gray-400 hover:text-gray-600'
