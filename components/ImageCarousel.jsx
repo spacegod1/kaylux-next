@@ -9,7 +9,12 @@ const carouselImages = [
   {
     src: '/images/cactus_hallway.png',
     alt: 'Cactus Hallway Design',
-    title: 'CACTUS HALLWAY COLLECTION'
+    title: 'CACTUS HALLWAY'
+  },
+  {
+    src: '/images/orchid_kitchen.png',
+    alt: 'Orchid Kitchen Design',
+    title: 'ORCHID KITCHEN AREA'
   },
   {
     src: '/images/cactus_living_area.png',
@@ -17,15 +22,20 @@ const carouselImages = [
     title: 'CACTUS LIVING AREA'
   },
   {
-    src: '/images/cactus_living area_extended.png',
-    alt: 'Cactus Living Area Extended',
-    title: 'EXTENDED LIVING SPACE'
+    src: '/images/marigold_living_area.jpg',
+    alt: 'Marigold Living Area Design',
+    title: 'MARIGOLD LIVING AREA'
   },
   {
-    src: '/images/orchid_kitchen.png',
-    alt: 'Orchid Kitchen Design',
-    title: 'ORCHID KITCHEN CONCEPT'
-  }
+    src: '/images/cactus_living area_extended.png',
+    alt: 'Cactus Living Area Extended',
+    title: 'CACTUS LIVING SPACE'
+  },
+  {
+    src: '/images/marigold_living_area2.jpg',
+    alt: 'Marigold Living Area Extended',
+    title: 'MARIGOLD LIVING SPACE'
+  },
 ]
 
 export default function ImageCarousel() {
@@ -109,7 +119,7 @@ export default function ImageCarousel() {
                     font-light
                   "
                 >
-                  VIEW PROJECT →
+                  VIEW PROJECTS →
                 </Link>
               </motion.div>
             </div>

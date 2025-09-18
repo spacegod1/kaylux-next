@@ -9,6 +9,7 @@ const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Projects', href: '/projects' },
   { name: 'Services', href: '/services' },
+  { name: 'Team', href: '/team' },
   { name: 'Contact', href: '/contact' }
 ]
 
@@ -21,7 +22,7 @@ export default function Navigation() {
   }
 
   // Determine if current page has light background
-  const isLightBackground = pathname === '/projects' || pathname === '/services' || pathname === '/contact'
+  const isLightBackground = pathname === '/projects' || pathname === '/services' || pathname === '/team' || pathname === '/contact'
   
   // Dynamic text colors based on background
   const textColors = {
