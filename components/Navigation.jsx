@@ -26,11 +26,11 @@ export default function Navigation() {
   
   // Dynamic text colors based on background
   const textColors = {
-    logo: isLightBackground ? 'text-gray-800' : 'text-white/95',
-    navLink: isLightBackground ? 'text-gray-700' : 'text-white/80',
-    navLinkHover: isLightBackground ? 'hover:text-gray-900' : 'hover:text-white',
-    activeLink: isLightBackground ? 'text-gray-900' : 'text-white',
-    menuButton: isLightBackground ? 'text-gray-700 hover:text-gray-900' : 'text-white/80 hover:text-white'
+    logo: isLightBackground ? 'text-gray-900' : 'text-white/95',
+    navLink: isLightBackground ? 'text-gray-800' : 'text-white/80',
+    navLinkHover: isLightBackground ? 'hover:text-black' : 'hover:text-white',
+    activeLink: isLightBackground ? 'text-black' : 'text-white',
+    menuButton: isLightBackground ? 'text-gray-800 hover:text-black' : 'text-white/80 hover:text-white'
   }
 
   // Dynamic background for active states

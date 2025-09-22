@@ -57,7 +57,7 @@ export default function Services() {
       </section>
 
       {/* Services Section */}
-      <section className="w-full py-16 lg:py-24 px-4 md:px-8 lg:px-36">
+      <section className="w-full pt-16 pb-6 lg:py-24 px-4 md:px-8 lg:px-36">
         <div className="max-w-7xl mx-auto">
           {services.map((service, index) => (
             <motion.div
@@ -87,6 +87,51 @@ export default function Services() {
               </div>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* Our Partners Section */}
+      <section className="w-full py-14 px-4 md:px-8 lg:px-36">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-8"
+          >
+            <h3 className="font-space-grotesk text-lg lg:text-xl font-medium text-gray-900">
+              OUR PARTNERS
+            </h3>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="flex items-center justify-center gap-12 lg:gap-16"
+          >
+            <div className="relative w-16 h-16 lg:w-20 lg:h-20">
+              <Image
+                src="/images/iddg.png"
+                alt="IDDG Partner Logo"
+                fill
+                className="object-contain"
+                sizes="(max-width: 1024px) 64px, 80px"
+              />
+            </div>
+            
+            <div className="relative w-16 h-16 lg:w-20 lg:h-20">
+              <Image
+                src="/images/porcer-gh.jpg"
+                alt="Porcer Partner Logo"
+                fill
+                className="object-contain"
+                sizes="(max-width: 1024px) 64px, 80px"
+              />
+            </div>
+          </motion.div>
         </div>
       </section>
 
