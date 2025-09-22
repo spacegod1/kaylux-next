@@ -92,9 +92,16 @@ export default function Projects() {
                       <h2 className="text-2xl md:text-3xl font-light tracking-tight text-black group-hover:text-gray-600 transition-colors duration-300">
                         {project.name}
                       </h2>
-                      <span className="text-sm text-gray-400 font-mono">
-                        {project.year}
-                      </span>
+                      <div className="flex items-center space-x-3">
+                        {project.status === 'ongoing' && (
+                          <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full">
+                            ONGOING
+                          </span>
+                        )}
+                        <span className="text-sm text-gray-400 font-mono">
+                          {project.year}
+                        </span>
+                      </div>
                     </div>
                     <div className="flex items-center space-x-4 mt-2">
                       <span className="text-sm text-gray-500">

@@ -19,7 +19,7 @@ export const teamMembers = {
     },
     {
       name: "Caleb Adu Twum Opoku",
-      role: "Real Estate Development & Design Manager",
+      role: "Real Estate Development & Design Lead",
       bio: "Caleb Adu Twum Opoku is a built environment enthusiast with a deep appreciation for the interaction between architecture, art, and design. Holding a degree in Real Estate, he currently serves as the Head of Operations External at Net 36 Vista, a property development, management, and investment firm based in Labone. His role has given him hands-on experience in client relations and management, real estate sales and marketing, event organization, and public relations—skills that seamlessly translate into his design perspective. Beyond real estate, Caleb's passions extend to interior design and art, where his meticulous nature and keen eye for detail allow him to curate spaces that are both functional and aesthetically refined.",
       specialties: ["Real Estate Development", "Client Relations", "Interior Design", "Art Curation", "Project Management"],
       education: "Bachelor of Real Estate",

@@ -112,7 +112,7 @@ export default function Services() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex items-center justify-center gap-12 lg:gap-16"
           >
-            <div className="relative w-16 h-16 lg:w-20 lg:h-20">
+            {/* <div className="relative w-16 h-16 lg:w-20 lg:h-20">
               <Image
                 src="/images/iddg.png"
                 alt="IDDG Partner Logo"
@@ -120,7 +120,7 @@ export default function Services() {
                 className="object-contain"
                 sizes="(max-width: 1024px) 64px, 80px"
               />
-            </div>
+            </div> */}
             
             <div className="relative w-16 h-16 lg:w-20 lg:h-20">
               <Image
