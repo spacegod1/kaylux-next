@@ -27,7 +27,7 @@ export const teamMembers = {
     },
     {
       name: "Jonathan Hegen",
-      role: "Architectural Designer",
+      role: "Interior Designer",
       bio: "My name is Jonathan Hegen, an interior designer with a growing passion for architectural design and spatial planning. With a sharp eye for detail and aesthetics, I specialize in creating interiors that harmonize beauty, functionality, and innovation. I enjoy transforming concepts into well-crafted spaces, blending modern design principles with creativity to deliver environments that inspire and elevate everyday living. Constantly exploring new trends, sustainable solutions, and design technologies, I strive to bring every project to life with originality, balance, and purpose.",
       specialties: ["Interior Design", "Architectural Design", "Spatial Planning", "Sustainable Solutions", "Modern Design"],
       education: "Interior Design",
@@ -35,7 +35,7 @@ export const teamMembers = {
     },
     {
       name: "Derrick Ahanogbe Yao",
-      role: "Architectural Designer",
+      role: "Interior Designer",
       bio: "I'm Derrick Ahanogbe Yao, an interior designer with a growing passion for architectural design. I have an eye for detail, I enjoy turning ideas into spaces that balance beauty and functionality, and I'm always exploring new, creative ways to bring designs to life.",
       specialties: ["Interior Design", "Architectural Design", "Detail-Oriented Design", "Creative Solutions", "Functional Design"],
       education: "Interior Design",
