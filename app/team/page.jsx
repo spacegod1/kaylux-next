@@ -15,7 +15,7 @@ export default function Team() {
     { ...teamMembers.ceo, type: 'leadership' },
     ...(teamMembers.designers || []).map(designer => ({ 
       ...designer, 
-      type: designer.role?.includes('Co-Founder') || designer.role?.includes('Manager') ? 'leadership' : 'design' 
+      type: designer.role?.includes('Co-Founder') || designer.role?.includes('Lead') ? 'leadership' : 'design' 
     }))
   ] : []
 

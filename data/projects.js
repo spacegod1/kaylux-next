@@ -64,7 +64,7 @@ export const projects = [
     type: 'Residential Development',
     category: 'architecture',
     status: 'ongoing',
-    hero_image: '/images/konkon1.jpg',
+    hero_image: '/images/Konkon.jpg',
     about: 'A modern residential apartment complex currently under construction, showcasing contemporary architectural design with functional living spaces. This ongoing project represents our commitment to creating quality residential developments that meet the needs of modern urban living.',
     description: 'Konkon Apartments is an ambitious residential development project that exemplifies our architectural expertise in creating modern, functional living spaces. This ongoing construction project features contemporary design elements, efficient space utilization, and sustainable building practices.\n\nThe development focuses on providing residents with comfortable, well-designed apartments that balance privacy with community living. Each unit is thoughtfully planned to maximize natural light and ventilation while incorporating modern amenities and finishes.',
     client: 'Konkon Development Group',
@@ -72,7 +72,6 @@ export const projects = [
     team: ['Lead Architect: Michael Asiedu Johnson', 'Project Manager: Caleb Adu Twum Opoku', 'Construction Manager: KayLux Construction Team'],
     materials: ['Reinforced concrete structure', 'Modern glazing systems', 'Sustainable insulation materials', 'Contemporary facade materials', 'Energy-efficient fixtures'],
     images: [
-      '/images/konkon1.jpg',
       '/images/Konkon.jpg'
     ],
     videos: []
